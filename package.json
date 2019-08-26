@@ -40,6 +40,7 @@
     "@typescript-eslint/parser": "^2.0.0",
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
     "css-loader": "^3.2.0",
     "eslint": "^6.2.1",
     "eslint-config-prettier": "^6.1.0",
