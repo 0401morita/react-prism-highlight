@@ -1,2 +1,2 @@
-export { ReactPrismHighlight } from './components/app';
+export { ReactPrismHighlight } from './components/app.ts';
 //# sourceMappingURL=index.js.map
