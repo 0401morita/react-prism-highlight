@@ -8,7 +8,7 @@
     "Syntax Highlight",
     "Typescript"
   ],
-  "main": "index.js",
+  "main": "./dist/components/app.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "build:types": "tsc --emitDeclarationOnly",
