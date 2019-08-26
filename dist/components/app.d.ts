@@ -1,7 +1,7 @@
 import React from 'react';
 import 'prismjs/themes/prism.css';
 import 'prismjs/themes/prism-okaidia.css';
-declare const languageList: any;
+declare const languageList: readonly ["html", "css", "js", "jsx", "tsx", "svg", "xml", "php", "ruby"];
 declare type Language = typeof languageList[number];
 interface ReactPrismHighlightProps {
     children?: string;
