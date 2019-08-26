@@ -1,0 +1,66 @@
+{
+  "name": "react-prism-highlight",
+  "version": "1.0.0",
+  "description": "Prism Syntax Hightlight For React",
+  "keywords": [
+    "Prism",
+    "React",
+    "Syntax Highlight",
+    "Typescript"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "dev": "webpack-dev-server --inline --watch-content-base --content-base public/ --config webpack.dev.js",
+    "git:push": "git add . && git commit -m \"Develop Update Push\" && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0401morita/react-prism-highlight.git"
+  },
+  "author": "Yosuke Morita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0401morita/react-prism-highlight/issues"
+  },
+  "homepage": "https://github.com/0401morita/react-prism-highlight#readme",
+  "browserslist": {
+    "browsers": [
+      "last 2 versions",
+      "ie >= 11",
+      "Android >= 4"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@types/prismjs": "^1.16.0",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "prismjs": "^1.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
