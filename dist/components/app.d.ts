@@ -9,4 +9,4 @@ interface ReactPrismHighlightProps {
     theme?: 'okaidia';
 }
 export declare const ReactPrismHighlight: React.FC<ReactPrismHighlightProps>;
-export default ReactPrismHighlight;
+export {};

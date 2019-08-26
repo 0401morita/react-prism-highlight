@@ -1,1 +1,1 @@
-export * from './components/app';
+export { ReactPrismHighlight } from './components/app';

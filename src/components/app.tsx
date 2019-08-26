@@ -63,6 +63,3 @@ export const ReactPrismHighlight: React.FC<ReactPrismHighlightProps> = ({ langua
     </pre>
   )
 }
-
-
-export default ReactPrismHighlight

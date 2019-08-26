@@ -46,5 +46,4 @@ export var ReactPrismHighlight = function (_a) {
     return (React.createElement("pre", { className: "language-" + useLanguage },
         React.createElement("code", { dangerouslySetInnerHTML: { __html: html } })));
 };
-export default ReactPrismHighlight;
 //# sourceMappingURL=app.js.map
