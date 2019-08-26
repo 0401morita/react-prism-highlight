@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Prism from 'prismjs'
-import 'prismjs/themes/prism.css'
-import 'prismjs/themes/prism-okaidia.css'
 const languageList = ['html','css','js','jsx','tsx','svg','xml','php','ruby'] as const
 type Language = typeof languageList[number]
 interface ReactPrismHighlightProps {

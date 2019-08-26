@@ -12,8 +12,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const prismjs_1 = __importDefault(require("prismjs"));
-require("prismjs/themes/prism.css");
-require("prismjs/themes/prism-okaidia.css");
 const languageList = ['html', 'css', 'js', 'jsx', 'tsx', 'svg', 'xml', 'php', 'ruby'];
 const loadLanguages = (language) => {
     const requests = [];
